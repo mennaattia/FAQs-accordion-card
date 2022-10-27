@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Kumba Sans;
+}
+.mainBg {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to bottom, #af67e9 0%, #6565e7 100%);
+    padding: 7% 10%;
+    font-size: 18px;
+}
+.mainBg .row {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+}
+.mainBg .row .firstCol {
+    padding-top: 7%;
+    padding-bottom: 5%;
+    margin-left: 0;
+    padding-left: 0;
+    z-index: 998;
+}
+.mainBg .row .firstCol .idc {
+    overflow: hidden;
+}
+.mainBg .row .firstCol .bg {
+    position: absolute;
+    top: 3%;
+    right: 28%;
+}
+.mainBg .row .firstCol .box {
+    position: absolute;
+    top: 36%;
+    left: -15%;
+    z-index: 999;
+}
+.mainBg .row .firstCol .woman {
+    position: relative;
+    margin-left: -15%;
+    z-index: 997;
+    margin-top: 3%;
+    overflow: hidden;
+}
+.womanSm {
+    display: none;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-top: -27%;
+}
+.mainBg .row .secondCol {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 3%;
+}
+.mainBg .row .secondCol h2 {
+    padding-bottom: 5%;
+    font-weight: 700;
+}
+.mainBg .row .secondCol h4, .mainBg .row .secondCol p, .mainBg .row .secondCol hr {
+    padding: .5%;
+}
+.mainBg .row .secondCol img {
+    float: right;
+    width: auto;
+    height: 10px;
+    margin-top: 3%;
+}
+.mainBg .row .secondCol .acc {
+    cursor: pointer;
+}
+.mainBg .row .secondCol .acc p {
+    display: none;
+    color: rgb(120, 120, 135);
+}
+.rotate {
+    transform: scaleY(-1)
+}
+@media (max-width: 992px) {
+    .mainBg {
+        padding: 35% 3% 25%;
+    }
+    .mainBg .row .firstCol .idc {
+        display: none;
+    }
+    .mainBg .row .firstCol .box {
+        display: none;
+    }
+    .womanSm {
+        display: block;
+    }
+    .mainBg .row .secondCol {
+        padding-top: 0%;
+    }
+    .mainBg .row .secondCol h2 {
+        text-align: center;
+    }
+}
